@@ -13,7 +13,7 @@ mydb= psycopg2.connect(host= "localhost",
                        user= "postgres",
                        port= "5432",
                        database= "phonepe_data",
-                       password= "Praji")
+                       password= "****")
 cursor= mydb.cursor()
 
 #agg_insurance_df
